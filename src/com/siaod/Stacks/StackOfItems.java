@@ -2,7 +2,7 @@ package com.siaod.Stacks;
 
 import java.util.NoSuchElementException;
 
-public class StackOfItems<item> {
+public class StackOfItems<Item> {
     private Node first = null;
     int size = 0;
 

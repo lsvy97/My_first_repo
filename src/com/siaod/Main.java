@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
        Scanner in = new Scanner(System.in);
        PrintStream out = System.out;
+       StackOfStrings(in, out);
     }
     private static void StackOfStrings (Scanner in , PrintStream out) {
         //to be or not to - be - - that - - - is
@@ -25,11 +26,5 @@ public class Main {
                 stack.push(s);
             }
         }
-    }
-    public static void main(string[] args) throws IOException{
-        //to be or not to - be - - that - - - is
-        Scanner in = new Scanner(System .in);
-        PrintStream out = System.out;
-        StackOfStrings(in, out);
     }
 }
