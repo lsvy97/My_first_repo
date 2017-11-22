@@ -1,5 +1,5 @@
 package com.siaod;
-import com.siaod.Stacks.StackOfStrings;
+import com.siaod.lec1.Stacks.StackOfStrings;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Scanner;

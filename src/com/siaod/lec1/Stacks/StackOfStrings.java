@@ -1,29 +1,24 @@
-package com.siaod.Stacks;
+package com.siaod.lec1.Stacks;
 
-import java.util.NoSuchElementException;
-
-public class StackOfItems<Item> {
+public class StackOfStrings {
     private Node first = null;
     int size = 0;
 
     private class Node {
-        Item item;
+        String item ;
         Node next;
     }
-    public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Stack underflow");
-        return first.item;
-    }
-    public void push (Item item) {
+
+    public void push (String item) {
         size++;
         Node oldFirst = first;
         first = new Node();
         first.item = item;
         first.next = oldFirst;
     }
-    public Item pop() {
+    public String pop() {
         size--;
-        Item item = first.item;
+        String item = first.item;
         first = first.next;
         return item;
     }

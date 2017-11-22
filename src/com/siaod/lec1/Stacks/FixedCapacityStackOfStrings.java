@@ -1,4 +1,4 @@
-package com.siaod.Stacks;
+package com.siaod.lec1.Stacks;
 
 public class FixedCapacityStackOfStrings {
     private String[] s;

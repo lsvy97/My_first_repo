@@ -1,4 +1,4 @@
-package com.siaod.Stacks;
+package com.siaod.lec1.Stacks;
 
 public class ResizingArrayStackOfStrings {
     private String[] s;
